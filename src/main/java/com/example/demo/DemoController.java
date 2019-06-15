@@ -17,6 +17,7 @@ public class DemoController {
     public class JavaBean {
         private long id;
         private String name;
+        private String desc;
 
         public long getId() {
             return id;
@@ -32,6 +33,14 @@ public class DemoController {
 
         public void setName(String name) {
             this.name = name;
+        }
+
+        public String getDesc() {
+            return desc;
+        }
+
+        public void setDesc(String desc) {
+            this.desc = desc;
         }
     }
 }
